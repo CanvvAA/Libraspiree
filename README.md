@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📚 LibrAspire - Aplikasi Perpustakaan Digital
 
-## Getting Started
+![Next.js](https://img.shields.io/badge/Next.js-16.2-black?logo=next.js)
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-06B6D4?logo=tailwindcss)
 
-First, run the development server:
+LibrAspire adalah aplikasi web perpustakaan digital yang memungkinkan pengguna mencari, meminjam, dan menjelajahi ribuan koleksi buku dengan mudah.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Fitur Utama
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+| Fitur | Deskripsi |
+|-------|-----------|
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+| ❤️ **Wishlist** | Simpan buku favorit ke daftar keinginan |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<img width="648" height="110" alt="image" src="https://github.com/user-attachments/assets/711d6d6d-3853-4a7e-b836-0e827ab72c75" />
 
-## Learn More
+| ⭐ **Rating Bintang** | Beri rating 1-5 untuk buku yang sudah dibaca |
 
-To learn more about Next.js, take a look at the following resources:
+<img width="1532" height="173" alt="image" src="https://github.com/user-attachments/assets/4438f0c6-2556-42f9-ab2c-2fda9f560844" />
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| 📚 **Rekomendasi** | Mendapat rekomendasi buku berdasarkan rating tertinggi |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<img width="1864" height="167" alt="image" src="https://github.com/user-attachments/assets/fccd174c-497a-4bf4-8d85-204b7b3f93ce" />
 
-## Deploy on Vercel
+## 🛠️ Teknologi yang Digunakan
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework**: Next.js 16 (Turbopack)
+- **UI Library**: React 19
+- **Styling**: CSS Modules
+- **Icons**: Emoji/Unicode
+- **Data Storage**: LocalStorage (client-side)
+- **Book Covers**: OpenLibrary API + Placeholder fallback
